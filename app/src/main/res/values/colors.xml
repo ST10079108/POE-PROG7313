@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="piggy_pink">#F8C8DC</color>
+    <color name="piggy_black">#000000</color>
+    <color name="piggy_white">#FFFFFF</color>
+    <color name="piggy_gray">#F5F5F5</color>
 </resources>
