@@ -5,5 +5,76 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="@color/piggy_pink"
     android:orientation="vertical"
-    tools:context=".CreateAccount" />
+    tools:context=".CreateAccount">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:gravity="center"
+        android:text="CREATE"
+        android:textAlignment="center"
+        android:textColor="@color/piggy_black"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/tVAccount"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:layout_gravity="center"
+        android:text="ACCOUNT"
+        android:textAlignment="center"
+        android:textColor="@color/piggy_black"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Username" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Email" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Password" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="wrap_content"
+        android:layout_height="74dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Confirm password" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:backgroundTint="@color/piggy_black"
+        android:text="Create Account"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:text="Already have an account? Sign in"
+        android:textAlignment="center" />
+
+</LinearLayout>
