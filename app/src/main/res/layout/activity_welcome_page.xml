@@ -27,30 +27,31 @@
         <EditText
             android:layout_width="277dp"
             android:layout_height="50dp"
-            android:layout_marginBottom="1dp"
+            android:layout_marginBottom="40dp"
             android:background="@drawable/rounded_corners"
             android:hint="Username"
             android:textColor="#000000"
             android:padding="12dp" />
 
+        <!-- Password Field -->
+        <EditText
+            android:layout_width="281dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/rounded_corners"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="12dp" />
+
+        <!-- Forgot Password -->
         <TextView
-            android:layout_width="257dp"
+            android:layout_width="279dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="200dp"
             android:gravity="end"
             android:text="Forgot password?"
             android:textColor="#000000"
             android:textSize="12sp" />
-
-        <EditText
-            android:layout_width="280dp"
-            android:layout_height="50dp"
-            android:layout_marginBottom="220dp"
-            android:background="@drawable/rounded_corners"
-            android:hint="Password"
-            android:inputType="textPassword"
-            android:padding="12dp"
-            android:textColor="#000000" />
 
         <Button
             android:layout_width="195dp"
